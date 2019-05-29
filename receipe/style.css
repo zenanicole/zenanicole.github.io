@@ -1,0 +1,51 @@
+
+
+body{	
+background-image: url("../silverware.jpg");
+background-repeat: default;
+
+}
+.receipetitle{
+	text-decoration:underline; color:#f2cd66;
+	font-family:"Ink Free";
+	
+	
+	
+}
+.receipetitle span{
+	background-color:#e8e7e5;
+}
+.neigbor{
+	font-style:italic;
+}
+.top{
+	text-align:center;
+}
+ol{
+	list-style-type:none;
+}
+ol.direction{
+	list-style-type:decimal;
+}
+ol.recommadation{
+
+	padding:0;
+}
+p.comment {
+	background-color:#E7E998;
+	margin: 20px;
+	font-style:italic;
+	
+}
+
+.bottom {
+	float:right;
+}
+a.bottomlink{
+	color:#f2cd66;
+	text-decoration:underline;
+	
+}
+
+
+	
