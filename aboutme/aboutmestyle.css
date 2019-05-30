@@ -11,14 +11,20 @@ color:#f2cd66;
 
 a{
 font-family:Tahoma;
-text-decoration:underline; color:red}
+text-decoration:none; 
+color:red
+}
+a:hover{
+text-decoration:underline;	
+}
 
 .moviequote{
 font-style:italic;
 color:#a8986a;
 
 }
-ol{list-style-type: decimal;
+ol{
+	list-style-type: decimal;
 }
 .receipetitle{
 	text-decoration:underline; color:#f2cd66;
@@ -30,5 +36,14 @@ ol{list-style-type: decimal;
 }
 body{
 	background-color:#ccc6b6;
+}
+p::first-letter{
+	font-size:1.5em;
+}
+li > ol{
+	list-style-type: none;
+}
+dt{
+	color:yellow;
 }
 

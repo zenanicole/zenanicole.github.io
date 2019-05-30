@@ -1,0 +1,103 @@
+
+
+body{	
+
+background-color:white;
+color:#404040;
+font-size:11pt;
+font-family:Georgia, Garamond, serif;
+
+}
+a{
+	color:#A4A400;
+	
+}
+
+.receipetitle{
+	text-decoration:underline; color:#A4A400 ;
+	font-family:"Lucida Sans Unicode", Helvetica, Arial, sans-serif ;
+	background-color:#F0F0F0;
+	letter-spacing:0.25em;
+	font-size:18pt;
+	font-weight:normal;
+	
+	
+	
+	
+	
+}
+.receipetitle.top{
+	
+margin:auto;
+	font-weight:bold;
+	font-size:22pt;
+	text-align:center;
+	width:680px;
+
+	
+}
+.receipetitle.normal{
+	display:inline;
+	
+}
+
+.neigbor{
+	font-style:italic;
+}
+
+
+ol{
+	list-style-type:none;
+	
+	
+}
+ol.direction{
+	list-style-type:decimal;
+	
+}
+.recommadation ol{
+	padding:0;
+}
+ol.element{
+	list-style-image:url("../pie_icon.gif");
+}
+p.comment {
+	background-color:#FFFFA8 ;
+	margin: 20px;
+	font-style:italic;
+	
+	
+}
+
+.bottom {
+	text-align:right;
+}
+a.bottomlink{
+	color:#f2cd66;
+	text-decoration:underline;
+	
+}
+#whole{
+	background-image: url("../silverware.jpg");
+margin: auto;
+    width: 65%;
+    border: 0px;
+    padding: 10px;
+    background-repeat: repeat;    
+}
+.abbrev{
+	text-decoration:underline;
+}
+#cake{
+	text-decoration:line-through;
+}
+#copyright{
+	font-family:monospace ;
+}
+.commentbold{
+	font-weight:bold;
+}
+
+
+
+	
