@@ -58,7 +58,7 @@ ol.direction{
 .recommadation ol{
 	padding:0;
 }
-ol.element{
+ul > li{
 	list-style-image:url("../pie_icon.gif");
 }
 p.comment {
