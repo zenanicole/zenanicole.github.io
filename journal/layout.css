@@ -34,6 +34,7 @@ body{
 	background-image: url("http://mumstudents.org/cs472/2019-06-RS/Labs/2/background.gif");
 	margin-left:10%;
 	margin-right:10%;
+	    color: #009097;
 	
 }
 p > img{
@@ -58,4 +59,8 @@ p > img{
 	
 	margin-left:240px;
 	
+}
+a {
+    color: #245F5F;
+    text-decoration: none;
 }
