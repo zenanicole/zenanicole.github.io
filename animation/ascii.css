@@ -1,0 +1,29 @@
+body{
+	background-color:#CCCCFF;
+	font-family:sans-serif ;
+	font-size:14pt;
+	font-weight:bold;
+}
+h1{
+	font-size:32pt;
+	text-align:center;
+}
+textarea{
+	width:90%;
+	height:400px;
+	font-size:12pt;
+	font-weight:bold;
+	font-family:monospace;
+	
+}
+fieldset{
+	border:5px solid black;		
+		display:inline;
+}
+#textareaid{
+	
+	text-align:center;
+}
+#link{
+	float:right;
+}
