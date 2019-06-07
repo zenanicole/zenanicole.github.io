@@ -1,31 +1,40 @@
+(function () {
+    "use strict"
 window.onload=function(){
-	document.getElementById("createacc").onclick=clickacc;
+	document.getElementById("createacc").onclick=createaccount;
 }
 
-let arr=[];
+var accountarr=[];
 var i=0;
-function clickacc(){
+var createaccount=(function clickacc(){
 	
-	var bankaccountmodule=(function(){
-		let bankaccObject={};
-		let account={};
-		bankaccObject.getAccount=function(){
-			account.name=document.getElementById("account").value;
-			account.balance=document.getElementById("deposit").value;		
-			return account;
-		} 
+	var bankaccount=function(){
 		
-		return bankaccObject;
+		var acctType=document.getElementById("account").value;
+		var deposit=document.getElementById("deposit").value;
+		var getaccttype = function () { return acctType };
+          var  getdeposit = function () { return deposit };
+			
+			return {
+				getaccttype:getaccttype,
+				getdeposit:getdeposit
+			}
+		} 
+		return function(){
+			accountarr.push(bankaccount());
+			displayAccount();
+		}
+		
 		
 	})();
-	
-	
-	arr.push(bankaccountmodule.getAccount());
-		
-	document.getElementById("banktextearea").value=document.getElementById("banktextearea").value+'Account Name:'+arr[i].name +' Balance: '+ arr[i].balance+'\n';
-	i++;
+	var displayAccount=function(){	
+		var textacc="";
+		for (let acct of accountarr) {
+            textacc += `Account: ${acct.getaccttype()}  Balance: ${acct.getdeposit()} \n`;
+        }
+		  document.getElementById("banktextearea").value = textacc;
 	}
-
-	
-
+		
+   
+})();
 	
