@@ -1,0 +1,433 @@
+#headerimg {
+    text-align: center;
+}
+
+#header {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#title-heading {
+    float: left;
+    width: 60%;
+    margin-top: 20px;
+}
+
+#p1 {
+    color: royalblue;
+    padding-bottom: 5px;
+    font-size: 28pt;
+}
+
+#p2 {
+    color: royalblue;
+    padding-bottom: 5px;
+    font-size: 20pt;
+}
+
+#service {
+    float: right;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#container {
+    clear: both;
+    border: gainsboro solid 1px;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 10px;
+    clear: both;
+}
+
+.container-header {
+    text-align: center;
+    font-family: sans-serif;
+    color: blue;
+    clear: clear;
+}
+
+#pcontainer {
+    padding: 20px;
+    font-size: 16pt;
+}
+
+#print {
+    text-align: center;
+    color: rgb(114, 169, 240)
+}
+
+#ih1 {
+    text-align: center;
+    font: size 18pt;
+}
+
+iframe {
+    width: 98%;
+    height: 350px;
+    margin-bottom: 50px;
+}
+
+.form-row {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.form-row>label {
+    display: block;
+    font-size: 16pt;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.form-row>input {
+    display: block;
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+}
+
+#div-second {
+    clear: left;
+}
+
+.form-row1 {
+    float: left;
+    margin-right: 20px;
+}
+
+.form-row1>label {
+    display: block;
+    font-size: 16pt;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.form-row1>input {
+    display: block;
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+}
+
+#sec1 {
+    margin-bottom: 30px;
+}
+
+#sec2 {
+    margin-top: 20px;
+}
+
+#first-form-div {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+#card-img-div {
+    float: left;
+    margin: 10px;
+}
+
+#card-img {
+    height: 200px;
+}
+
+.form-row2 {
+    float: left;
+    margin-right: 20px;
+}
+
+.form-row2>label {
+    display: block;
+    font-size: 16pt;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.form-row2>input,
+select {
+    display: block;
+    border-radius: 5px;
+    width: 600px;
+    height: 35px;
+}
+
+option {
+    font-size: 16pt;
+    text-size-adjust: 16pt;
+}
+
+#div-third {
+    clear: both;
+    margin-bottom: 70px;
+}
+
+.form-sec-div {
+    clear: left;
+}
+
+#form-sec-div>h1,
+hr {
+    clear: left;
+}
+
+.form-row3 {
+    clear: right;
+    float: left;
+    margin-right: 20px;
+    width: 65%;
+}
+
+.form-row3>label {
+    display: block;
+    font-size: 16pt;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.form-row3>input {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+}
+
+.form-row4 {
+    float: left;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.form-row4>label {
+    display: block;
+    font-size: 16pt;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.form-row4>input {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+}
+
+.form-row5 {
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 40%;
+}
+
+.form-row5>label {
+    display: block;
+    font-size: 16pt;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.form-row5>input {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+}
+
+.form-row6 {
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 55%;
+}
+
+.form-row6>label {
+    display: block;
+    font-size: 16pt;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.form-row6>input {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+}
+
+.form-row7 {
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 45%;
+}
+
+.form-row7>label {
+    display: block;
+    width: 100%;
+    font-size: 16pt;
+    margin-bottom: 5px;
+}
+
+.form-row7>input {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+}
+
+#div-form-contact-row1 {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+#div-form-contact-row2 {
+    margin-top: 20px;
+}
+
+.form-sec-div span {
+    font-size: 16pt;
+}
+
+.form-sec-div input[type=checkbox] {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(2);
+    /* IE */
+    -moz-transform: scale(2);
+    /* FF */
+    -webkit-transform: scale(2);
+    /* Safari and Chrome */
+    -o-transform: scale(2);
+    /* Opera */
+    transform: scale(2);
+    padding: 10px;
+}
+
+#employment select,
+label {
+    width: 50%;
+    font-size-adjust: 0.50;
+    font-size: 16pt;
+}
+
+#financial {
+    font-size: 16pt;
+    clear: left;
+    margin-bottom: 40px;
+}
+
+#financial input[type=radio] {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(2);
+    /* IE */
+    -moz-transform: scale(2);
+    /* FF */
+    -webkit-transform: scale(2);
+    /* Safari and Chrome */
+    -o-transform: scale(2);
+    /* Opera */
+    transform: scale(2);
+    padding: 10px;
+    display: inline;
+}
+
+.form-row8 {
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 45%;
+    clear: left;
+}
+
+.form-row8>label {
+    display: block;
+    width: 100%;
+    font-size: 16pt;
+    margin-bottom: 5px;
+}
+
+.form-row7>select {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+}
+
+#btn-submit {
+    clear: left;
+    text-align: center;
+}
+
+#btn-submit button {
+    margin-top: 200px;
+    background-color: green;
+    color: white;
+    width: 60%;
+    height: 60px;
+    font-size: 16pt;
+}
+
+hr {
+    clear: both;
+}
+
+footer {
+    clear: both;
+    background-color: rgb(238, 238, 238);
+    height: 400px;
+    ;
+}
+
+#f-div1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    clear: left;
+    float: left;
+    font-size: 16pt;
+}
+
+#line1 {
+    margin-top: 40px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#f-div1 a {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#f-div2 {
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#img3 {
+    width: 130px;
+    height: 50px;
+}
+
+#line2 {
+    clear: left;
+    margin-top: 40px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
+
+#img4 {
+    width: 200px;
+    height: 50px;
+}
+
+#line3 {
+    clear: left;
+    margin-top: 40px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    font-size: 16pt;
+}
